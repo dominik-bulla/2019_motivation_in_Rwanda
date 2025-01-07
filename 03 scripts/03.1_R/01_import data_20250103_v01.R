@@ -28,8 +28,8 @@ subjectlist <- read.csv("01 raw data/subject coding_20220213_Version04.csv")
 ### clean data ----------------------- ----------------------- ----------------------- -----------------------
 
 motivation_confidence <- motivation_confidence %>%
-  rename("type" = `DATA TYPE`, 
-         "questionnaire" = `TYPE`,
+  rename("questionnaire_classification_final" = `DATA TYPE`, 
+         "questionnaire_type_initial" = `TYPE`,
          "school" = `SCHOOL`,
          "sno_questionnaire" = `SNO`,
          "sno_statement" = `SNO_IN`,
@@ -97,7 +97,8 @@ motivation_confidence <- motivation_confidence %>%
          "delete" = `...67`) %>%
   select(-c(final_verb, delete)) %>%
   mutate(type = tolower(coding_round_2_final_coding), 
-         questionnaire = tolower(questionnaire),
+         questionnaire_classification_final = tolower(questionnaire_classification_final),
+         questionnaire_type_initial = tolower(questionnaire_type_initial),
          coding_round_1_final_coding = tolower(coding_round_1_final_coding),
          coding_round_2_final_coding = tolower(coding_round_2_final_coding),
          statement_first = tolower(statement_first),
@@ -109,11 +110,11 @@ motivation_confidence <- motivation_confidence %>%
 ### clean snos ----------------------- ----------------------- ----------------------- -----------------------
 
 motivation_confidence <- motivation_confidence %>%
-  mutate(sno_statement = paste0(substr(school, 1, 1), substr(questionnaire, 1, 1), sno_statement)) %>%
+  mutate(sno_statement = paste0(substr(school, 1, 1), substr(questionnaire_classification_final, 1, 1), sno_statement)) %>%
   group_by(sno_statement) %>%
   mutate(sno_segment = paste0(sno_statement, "_", row_number())) %>%
   ungroup() %>%
-  select(type, questionnaire, school, sno_questionnaire,
+  select(questionnaire_classification_final, questionnaire_type_initial, school, sno_questionnaire,
          sno_student, sno_statement, sno_segment, everything())
 
 
@@ -187,10 +188,8 @@ motivation_confidence <- motivation_confidence %>%
 
 ### create data set for 2019 mixed-method study on "Achievement motivation amongst Rwandan students" ----------------------- ----------------------- ----------------------- -----------------------
 
-
-
 motivation <- motivation_confidence %>%
-  filter(questionnaire == "demotivation" | questionnaire == "motivation") %>%
+  filter(questionnaire_classification_final == "demotivation" | questionnaire_classification_final == "motivation") %>%
   select(-c(statement_Kinyarwanda, statement_English, statement_stem, statement_in_first_person, 
             auxiliary_verb_used, verb_used, verb_negated, adverb_used, 
             object_1_used, object_2_used, object_3_used))
