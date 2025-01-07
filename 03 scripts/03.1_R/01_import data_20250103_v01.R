@@ -15,26 +15,35 @@ library(psych)
 
 
 
-### Load data ----------------------- ----------------------- ----------------------- -----------------------
+### import data ----------------------- ----------------------- ----------------------- -----------------------
 
 motivation_confidence <- read_excel("01 raw data/motivation in Rwanda_data_motivation and confidence data_20250103_V01.xlsx")
+schoolmarks <- read.csv("01 raw data/school marks_20220213.csv")                          
+
+### we manually code the subjects students listed as related to (a)motivation. See column 'what_subjects_listed'
+subjectlist <- read.csv("01 raw data/subject coding_20220213_Version04.csv")
+
+
+
+### clean data ----------------------- ----------------------- ----------------------- -----------------------
+
 motivation_confidence <- motivation_confidence %>%
   rename("type" = `DATA TYPE`, 
          "questionnaire" = `TYPE`,
          "school" = `SCHOOL`,
-         "sno_school" = `SNO`,
+         "sno_questionnaire" = `SNO`,
          "sno_statement" = `SNO_IN`,
          "sno_student" = `# STUDENT`,
          "sno" = `COMBINED \r\nSNO`, 
          "statement_first" = `UNIQUE \r\n(STUDENT)`,
-         "statement_multiple" = `UNIQUE \r\n(STATEMENT)`, 
+         "statement_unique" = `UNIQUE \r\n(STATEMENT)`, 
          "statement_coded_multiple" = `MULTIPLE CODING`, 
          "name" = `NAME`,
          "age" = `AGE`, 
          "gender" = `GENDER`,
          "school_grade" = `LEVEL`, 
          "consent_given" = `CONSENT \r\nFORM`, 
-         "what subjects listed" = `Subject`, 
+         "what_subjects_listed" = `Subject`, 
          "what follow-up statenents given" = `FOLLOW-UP\r\nSTATEMENT`,
          "coding_round_1_coder_1" = `MAKES SENSE FINAL \r\n[ROUND 1; CODER 1]`, 
          "coding_round_1_coder_2" = `MAKES SENSE FINAL \r\n[ROUND 1; CODER 2]`, 
@@ -89,20 +98,96 @@ motivation_confidence <- motivation_confidence %>%
   select(-c(final_verb, delete)) %>%
   mutate(type = tolower(coding_round_2_final_coding), 
          questionnaire = tolower(questionnaire),
-         coding_round_2_final_coding = tolower(coding_round_2_final_coding)) %>%
-  filter(type != "no")
+         coding_round_1_final_coding = tolower(coding_round_1_final_coding),
+         coding_round_2_final_coding = tolower(coding_round_2_final_coding),
+         statement_first = tolower(statement_first),
+         statement_unique = tolower(statement_unique),
+         statement_coded_multiple = tolower(statement_coded_multiple)) 
 
 
 
-### Anonymize data set ----------------------- ----------------------- ----------------------- -----------------------
+### clean snos ----------------------- ----------------------- ----------------------- -----------------------
+
+motivation_confidence <- motivation_confidence %>%
+  mutate(sno_statement = paste0(substr(school, 1, 1), substr(questionnaire, 1, 1), sno_statement)) %>%
+  group_by(sno_statement) %>%
+  mutate(sno_segment = paste0(sno_statement, "_", row_number())) %>%
+  ungroup() %>%
+  select(type, questionnaire, school, sno_questionnaire,
+         sno_student, sno_statement, sno_segment, everything())
+
+
+
+### clean remaining data ----------------------- ----------------------- ----------------------- -----------------------
+
+motivation_confidence <- motivation_confidence %>%
+  mutate(school_grade = ifelse(grepl("1", school_grade),"1", school_grade)) %>%
+  mutate(school_grade = ifelse(grepl("2", school_grade),"2", school_grade)) %>%
+  mutate(school_grade = ifelse(grepl("3", school_grade),"3", school_grade)) %>%
+  mutate(school_grade = ifelse(school_grade == "?",NA, school_grade)) 
+
+motivation_confidence <- motivation_confidence %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "OPPORTUNITY","COSTS/OPPORTUNITY", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "OUTSIDE","COSTS/OUTSIDE", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "NEGATIVE","COSTS/EMOTIONAL", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "TASK DIFFICULTY","COSTS/EFFORT", coding_round_4.2_final_coding_separate))
+
+motivation_confidence <- motivation_confidence %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "POSITIVE","VALUE/POSITIVE", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (DAILY LIFE)", "VALUE/UTILITY/DAILY LIFE", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (GENERAL)", "VALUE/UTILITY/GENERAL", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (LEARNING UTILITY)", "VALUE/UTILITY/LEARNING UTILITY", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (OTHER)", "VALUE/UTILITY/OTHER", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (SCHOOL UTILITY)", "VALUE/UTILITY/SCHOOL UTILITY", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (SOCIAL UTILITY)", "VALUE/UTILITY/SOCIAL UTILITY", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (USELESS)", "VALUE/UTILITY/USELESS", coding_round_4.2_final_coding_separate)) 
+
+motivation_confidence <- motivation_confidence %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (EVALUATIVE)","GOALS/evaluative", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (FAMILY SUPPORT)","GOALS/family support", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (MASTERY)","GOALS/mastery", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (NORMATIVE)","GOALS/normative", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (OUTCOME)","GOALS/outcome", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (SOCIAL APPROVAL)","GOALS/social approval", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (SOCIAL CONCERN)","GOALS/social concern", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (SOCIAL RESPONSIBILITY)","GOALS/social responsibility", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (SOCIAL STATUS)","GOALS/social status", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = tolower(coding_round_4.2_final_coding_separate))
+
+
+
+### merge with school marks and subject listing ----------------------- ----------------------- ----------------------- -----------------------
+
+schoolmarks <- schoolmarks %>%
+  rename(`sno_student` = Student) %>%
+  select(-c(NAME))
+colnames(schoolmarks) <- tolower(colnames(schoolmarks))
+
+subjectlist <- subjectlist %>%
+  rename(`sno_student` = Student) %>%
+  select(-c(Name, Age, Gender, Grade, School))
+colnames(subjectlist) <- tolower(colnames(subjectlist))
+
+motivation_confidence <- merge(motivation_confidence, subjectlist, by = "sno_student")
+motivation_confidence <- merge(motivation_confidence, schoolmarks, by = "sno_student")
+rm(schoolmarks, subjectlist)
+
+motivation_confidence <- motivation_confidence %>%
+  arrange(sno_student)
+
+
+
+### anonymize data set ----------------------- ----------------------- ----------------------- -----------------------
 
 motivation_confidence <- motivation_confidence %>%
   select(-c(name)) %>%
-  mutate(school = ifelse(school == "Maranyundo", "A", "B"))
+  mutate(school = ifelse(school == "Maranyundo", "B", "A"))
 
 
 
-### Create data set for 2019 mixed-method study on "Achievement motivation amongst Rwandan students" ----------------------- ----------------------- ----------------------- -----------------------
+### create data set for 2019 mixed-method study on "Achievement motivation amongst Rwandan students" ----------------------- ----------------------- ----------------------- -----------------------
+
+
 
 motivation <- motivation_confidence %>%
   filter(questionnaire == "demotivation" | questionnaire == "motivation") %>%

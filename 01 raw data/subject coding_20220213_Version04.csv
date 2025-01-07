@@ -1,0 +1,171 @@
+Student,School,Name,Age,Gender,Grade,Subjects.CONFIDENCE,Subjects.DEMOTIVATION,Subjects.MOTIVATION,Subjects.UNCONFIDENCE,Biology_C,Biology_D,Biology_M,Biology_U,Chemistry_C,Chemistry_D,Chemistry_M,Chemistry_U,English_C,English_D,English_M,English_U,Entrepreneurship_C,Entrepreneurship_D,Entrepreneurship_M,Entrepreneurship_U,French_C,French_D,French_M,French_U,Geography_C,Geography_D,Geography_M,Geography_U,History_C,History_D,History_M,History_U,ICT_C,ICT_D,ICT_M,ICT_U,Kinyarwanda_C,Kinyarwanda_D,Kinyarwanda_M,Kinyarwanda_U,Kiswahili_C,Kiswahili_D,Kiswahili_M,Kiswahili_U,Literature_C,Literature_D,Literature_M,Literature_U,Mathematics_C,Mathematics_D,Mathematics_M,Mathematics_U,Physics_C,Physics_D,Physics_M,Physics_U,Religion_C,Religion_D,Religion_M,Religion_U,Sports_C,Sports_D,Sports_M,Sports_U
+1,Maranyundo,Aheza Umurerwa Dinah,16,Female,S1A,"English,History","Mathematics,Physics",,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,
+2,Maranyundo,Akimana Anitha,15,Female,S1B,English,Ntayo,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+3,Maranyundo,Amani Jean Paul,12,Male,S1A,,,"Chemistry,Biology","Physics,Mathematics",,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0
+4,Nyamata,Amata Delice Ishoborabyose,14,Female,S2A,,,"Ent,History,Geography,Maths,Chemistry,Religious,Physics,Biology,English,Sports","Ikinyarwanda,Francais,Kiswahili",,,1,0,,,1,0,,,1,0,,,1,0,,,0,1,,,1,0,,,1,0,,,0,0,,,0,1,,,0,1,,,0,0,,,1,0,,,1,0,,,1,0,,,1,0
+5,Nyamata,Bamurange Jeanne,14,Female,S1A,,,"Ikinyarwanda,English,Biology,Physics","History,Chemistry,French,Swahili",,,1,0,,,0,1,,,1,0,,,0,0,,,0,1,,,0,0,,,0,1,,,0,1,,,1,0,,,0,1,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0
+6,Nyamata,Batamuriza Eliane,15,Female,S1A,,,"Ikinyarwanda,English","Maths,Francais",,,0,0,,,0,0,,,1,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+7,Maranyundo,Bavumiragira Straton,17,Male,S1A,"English,Biology","Physics,Mathematics",,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,
+8,Maranyundo,Bikorimana Obed,14,Male,S1B,"Physics,history,Ikinyarwanda,Bio,Chem,Maths,Sw,French,Lit,Lel","Geo,Lit,Lel",,,1,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,1,0,,,0,0,,,1,0,,,1,0,,,1,1,,,1,0,,,1,0,,,1,1,,,0,0,,
+9,Maranyundo,Cyiza Jacques,15,Male,S3,"Mathematics,Physics","French,Literature",,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,1,0,,,0,0,,,0,0,,
+10,Nyamata,Cyubahiro Amose,13,Male,S1B,"Biology, Chemistry, Swahili","Kiswahiri,Chemistry,Biology",,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+11,Nyamata,Cyusa Bruno,15,Male,S1A,"Maths,Geography","Kiswahili,History",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,
+12,Maranyundo,Dukuzimana Fabrice,15,Male,S1B,"Maths,Kinyarwanda","Physics,French",,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,
+13,Maranyundo,Dusabumuremyi Eric,16,Male,S3,,,"Biology, geography,Kinyarwanda,English,Chemistry,Religion,ICT,Kiswahili","French,Mathematics,Physics,History,Entrepreneurship",,,1,0,,,1,0,,,1,0,,,0,1,,,0,1,,,1,0,,,0,1,,,1,1,,,1,0,,,1,0,,,0,0,,,0,1,,,0,1,,,1,0,,,0,0
+14,Maranyundo,Dushime Ruth,16,Female,S3,,,"Geography,Biology","Mathematics,History",,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+15,Nyamata,Dushoboka Savant,17,Male,S2A,,,"Francais,Kiswahili,Sports","Geography,History,Chemistry,Biology",,,0,1,,,0,1,,,0,0,,,0,0,,,1,0,,,0,1,,,0,1,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0
+16,Maranyundo,Dusingizimana Dieudonne,15,Male,S1A,"Biology,Maths,Chemistry,Physics","French,Kinyarwanda",,,1,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0,,
+17,Maranyundo,Dusingizimana Marite,17,Male,S2,"Maths,Biology,Physics","Maths,Physics,Biology,Chemistry,Geography",,,1,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,
+18,Nyamata,Dusingizimana Sandrine,16,Female,S1B,"Ikinyarwnda,Physics,Maths,Chemistry,History,ICT,Geography,English,Biology","Kiswahili,Entrepreneurship,Religion",,,1,0,,,1,0,,,1,0,,,0,1,,,0,0,,,1,0,,,1,0,,,1,0,,,1,0,,,0,1,,,0,0,,,1,0,,,1,0,,,0,1,,,0,0,,
+19,Nyamata,Gahire J.Claude,15,Male,S1B,,"Geo,Kiny,Eng,Hist,Kisw",,"Kinyarwanda,ICTBiology,Geography",,0,,1,,0,,0,,1,,0,,0,,0,,0,,0,,1,,1,,1,,0,,0,,0,,1,,1,,1,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0
+20,Maranyundo,Gasasira Steven,16,Male,S3,"Biology,Geography,Physics,English","Mathematics,French,Chemistry",,,1,0,,,0,1,,,1,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,
+21,Nyamata,Gatete Emmanuel,17,Male,S1A,"ICT,Kinya,Maths","ICT,Geo,Maths",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,1,1,,,1,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,
+22,Nyamata,Gatete Jean De Dieu,12,Male,S1B,,,"Physics,Maths,ICT,Biology,Kiswahili","Chemistry, French, Kinyarwanda , Entrepreneurship",,,1,0,,,0,1,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,,1,0,,,0,1,,,1,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0
+23,Nyamata,Gihana Shadrack,17,Male,S3,,,"English,Kinyarwanda","Physics,Chemistry",,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0
+24,Maranyundo,Gikundiro Dieudonne,18,Male,S3,,,"Maths,Chem,French,Physics,English,Kiswahili","Geography, History,French",,,0,0,,,1,0,,,1,0,,,0,0,,,1,1,,,0,1,,,0,1,,,0,1,,,0,0,,,1,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0
+25,Maranyundo,Gisubizo Hubert,16,Male,S2,,,"Biology,Entrepreneurship","Biology,Entrepreneurship",,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+26,Maranyundo,Habinshuti Emmanuel,18,Male,S3,,,"Mathematics,Kinyarwanda","Chemistry,Physics",,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0
+27,Maranyundo,Hagenimana Florence,18,Female,S3,,,"Biology,History,Swahili","Geography, Maths",,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+28,Maranyundo,Hakizimana Jean Paul,17,Male,S3,,,"Mathematics,Physics",,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0
+29,Maranyundo,Ibyoyesuyankoreye Peter,17,Male,S3,,,"History,Geography",,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+30,Maranyundo,Igiraneza Eric,16,Male,S1A,,,"English,Kinyarwanda","Ikinyarwanda,English",,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+31,Nyamata,Ihogoza Solange,15,Female,S1A,"Ikinyarwanda,English",,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+32,Maranyundo,Ikuzwe Philbart,17,Male,S2,,,"Biology,Chemistry,Geography","Biology,Chemistry,Geography",,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+33,Nyamata,Imanizabayo Nadia,14,Female,S1A,"Geography, Ikinyarwanda","Physical,Chemistry",,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,
+34,Maranyundo,Ingabire Aline,17,Female,S3,,,"Maths,Biology,Ikinyarwanda","History,Physics,English",,,1,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0
+35,Maranyundo,Ingabire Joyeuse,16,Female,S1A,,,"Ikinyarwanda,History","Maths,Chem",,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+36,Nyamata,Iradukunda Aline,15,Female,S2A,,,"Kinyarwanda, Imibare,English","Kinyarwanda,English,Maths",,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+37,Maranyundo,Iradukunda Divine,15,Female,S3,"English,Maths","Geography, History",,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,
+38,Nyamata,Iradukunda John,16,Male,S2B,,,"Lunch,sport,kinyarwanda,english","Physics,Hist ,Maths,ICT",,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,1,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,1,0
+39,Nyamata,Iradukunda Raissa,16,Female,S1A,,,"Chemistry,Biology,English and Ikinyarwanda","Physics,Enterpreneurship",,,1,0,,,1,0,,,1,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0
+40,Maranyundo,Iradukunda Sandrine,14,Male,S1A,"Chemistry,History,Entrepreneurship,Kiswahili,English","Maths,Physics,French,Literature,ICT",,,0,0,,,1,0,,,1,0,,,1,0,,,0,1,,,0,0,,,1,0,,,0,1,,,0,0,,,1,0,,,0,1,,,0,1,,,0,1,,,0,0,,,0,0,,
+41,Nyamata,Iraguha Valentine,15,Female,S1B,"Geography,Biology,Physics,Ikinyarwanda,English","Geography,Ikinyarwanda,English,Biology,Physics",,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,
+42,Maranyundo,Irakoze Eugene,20,Male,S2,"History,Chemistry,Sw,Phy,Geography","Geography,History,Sw,Rel",,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,
+43,Maranyundo,Irakoze Solange,15,Female,S1A,,,"Chemistry,Biology","Physics,Mathematics",,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0
+44,Nyamata,Irumva Rifiki,14,Female,S1B,"Physics,Biology,English,ICT","Physics,English",,,1,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,
+45,Nyamata,Ishimwe Ange Sheilla,16,Female,S2A,"Francais,Maths,Chemistry,Biology,Geography,Entrepreneurship",,,,1,0,,,1,0,,,0,0,,,1,0,,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,
+46,Nyamata,Ishimwe Emmanuel,16,Male,S3,"Geography,ICT,Mathematics,Kinyarwanda,English,History","Igiswahili,Francais,Physics,Chemistry,Entrepreneurship",,,0,0,,,0,1,,,1,0,,,0,1,,,0,1,,,1,0,,,1,0,,,1,0,,,1,0,,,0,1,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,
+47,Maranyundo,Ishimwe Flavia Annick,16,Female,S2,"History,Physics","Biology,Geography",,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,
+48,Maranyundo,Ishimwe Honolyne,13,Female,S1A,,,"Ikinyarwanda, Maths","Physics,entrepreneurship",,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0
+49,Maranyundo,Ishimwe Jeanine,17,Female,S2,"Maths,English",Physics,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,
+50,Nyamata,Ishimwe Marie Grace,14,Female,S1B,"Biology,Physics,Geography","Biology,Physics,Geography",,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,
+51,Maranyundo,Ishimwe Robert,16,Male,S1B,"Bio,Chem,Swahili","Chem,Eng,Bio",,,1,1,,,1,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+52,Nyamata,Isimbi Frank Fred,14,Male,S2A,,,"ICT,L.C","Chemistry,Francais",,,0,0,,,0,1,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0
+53,Nyamata,Iturinde Hasha,15,Female,S1B,"Chemistry,Ikinyarwanda","Ikinyarwanda,Chemistry",,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+54,Nyamata,Iyamuremye Alain,12,Male,S1B,"ICT,Physics,Chem,Biology,Geography,Maths","Physics,Biology,Maths,Chemistry,ICT",,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,
+55,Maranyundo,Izabayo Fidele,16,Male,S1A,,,"Kiny,Eng,Bio,ICT,Hist",-999,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,1,0,,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+56,Maranyundo,Izabayo Marie Louise,15,Female,S2,,,"Ikinyarwanda,Chem,Physics,Maths","Maths,Chem,Ikinyarwanda,Physics",,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0
+57,Nyamata,Kabanyana Beatha,14,Female,S2A,"Kinyarwanda,Sports,Maths,Kiswahili",,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,
+58,Nyamata,Kabasinga Fridah,13,Female,S2B,"History,Geography,Biology,Literature","History,Geography,Biology,ICT",,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,0,1,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+59,Nyamata,Kagambage Alexandre,13,Male,S1B,,,"Bio,Kiny,Ent,Sports,literature","History, Maths,Physics",,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,1,,,1,0,,,0,0,,,1,0,,,0,1,,,0,1,,,0,0,,,1,0
+60,Maranyundo,Kavuna Emmanuel,20,Male,S1A,,,"Ikinyarwanda,Chemistry","French,Physics",,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0
+61,Nyamata,Kibinga Emmanuel,14,Male,S1B,,,"Geography,Kiswahili,English and Biology","Geography, Swahili, Biology, English, Physics",,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0
+62,Maranyundo,Kubwimana Angelique,17,Female,S1A,,,"Biology,Ikinyarwanda","Mathematics,Physics",,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0
+63,Maranyundo,Kwizera Joseph,15,Male,S3,"Physics,Kiswahili,Mathematics,Biology,Kinyarwanda,English,Geography","French,Chem,Hist,Rel,Lit,Ent.ship",,,1,0,,,0,1,,,1,0,,,0,1,,,0,1,,,1,0,,,0,1,,,0,0,,,1,0,,,1,0,,,0,1,,,1,0,,,1,0,,,0,1,,,0,0,,
+64,Nyamata,Mbanjineza Fidele,15,Male,S1B,,,"English,Ikinyarwanda,Physics,Geography,Biology,Maths","History, Chemistry, Francais",,,1,0,,,0,1,,,1,0,,,0,0,,,0,1,,,1,0,,,0,1,,,0,1,,,1,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0
+65,Maranyundo,Mfuranzima Chadrack,17,Male,S2,"Mathematics,English","Mathematics,English",,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,
+66,Nyamata,Mpagazehe Benjamin,12,Male,S1B,"Maths,Physics,History,Bio,Kinya,Chemistry,ICT","History,Mahts,Chem,Physics,Bio,ICT",,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,1,0,,,0,0,,,0,0,,,1,0,,,1,1,,,0,0,,,0,0,,
+67,Maranyundo,Mpawingabo Eric,13,Male,S1A,"Kinyarwanda,Geography","Mathematics,Physics",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,
+68,Nyamata,Muberwa John,16,Male,S3,,,"Geography,Physical,Maths,Chemistry,History","Biology,Entrepreneurship,English,France,Swahili,Ikinyarwanda",,,0,1,,,1,0,,,0,1,,,0,1,,,0,1,,,1,0,,,1,0,,,0,0,,,0,1,,,0,1,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0
+69,Nyamata,Mugisha Deborah,15,Female,S1A,,,-999,"English,Kinyarwanda,Swahili",,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+70,Nyamata,Mugisha Idrissa,16,Male,S1A,"Chemistry,History,Physics,Maths,English,Geo","Rerigion,Lit",,,0,0,,,1,0,,,1,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,1,0,,,0,1,,,0,0,,
+71,Nyamata,Muhawenimana Phabiolla,14,Female,S1A,,,"English,Physics,Ikinyarwanda,Biology","Physical,Biology,Ikinyarwanda,English",,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0
+72,Nyamata,Muhire Patrick,14,Male,S2B,,,"Physics,History","Chem,Geo",,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0
+73,Maranyundo,Muhorakeye Diane,18,Female,S3,"Kinyarwanda,Kiswahili","English,Maths,Physics",,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,
+74,Maranyundo,Muhoza Olivier,17,Male,S1A,"Ikinyarwanda,English","Maths,Swahili",,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,
+75,Maranyundo,Mukabaranga Allen,13,Female,S1A,,,"Ikinyarwanda,Biology","Biology,Chemistry,Physics",,,1,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0
+76,Maranyundo,Mukadusenge,14,Female,S1B,,,"Maths,Ikinyarwanda","Francais,Physics",,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0
+77,Maranyundo,Mukamutesi Louise,16,Female,S1A,,,"Biology,Entrepreneurship","Maths,Physics",,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0
+78,Nyamata,Mukandayisenga Justine,16,Female,S3,,,"Bio,Geo,Kinya,Eng","Maths,Physics,Chemistry",,,1,0,,,0,1,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0
+79,Maranyundo,Mukarusangiza Belyse,14,Female,S1B,,,"Geography,Maths,Chemistry","Ikinyarwanda,Biology,English",,,0,1,,,1,0,,,0,1,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0
+80,Maranyundo,Mukeshimana Josiane,14,Female,S3,,,"Mathematics,Physics","History,Geography",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0
+81,Nyamata,Munezero Clemence,14,Female,S2B,"Maths,Physics,Geography,Litirature,English",,"Maths,Physics,Geography,Litirature,English",,0,,0,,0,,0,,1,,1,,0,,0,,0,,0,,1,,1,,0,,0,,0,,0,,0,,0,,0,,0,,1,,1,,1,,1,,1,,1,,0,,0,,0,,0,
+82,Maranyundo,Mushimiyimana Belyse,13,Female,S1B,,,"English,Entrepreneurship,Geography,Kinyarwanda,Swahili","Eng,Kiny,Hist,Sw,Entre,Bio,Geo,Chem",,,0,1,,,0,1,,,1,1,,,1,1,,,0,0,,,1,1,,,0,1,,,0,1,,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+83,Maranyundo,Mutesi Charlotte,17,Female,S1A,"Ikinyarwanda, English","History,Physical",,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,
+84,Nyamata,Mutijima Samson,16,Male,S3,"Ikinyarwanda,English,History,Geography,","Maths,Chemistry,Biology",,,0,1,,,0,1,,,1,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,
+85,Maranyundo,Mutima Jaqueline,17,Female,S2,"Ent,Geo,Maths,Kinyarwanda","Ent,Geo,Maths,Physics",,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,1,,,0,1,,,0,0,,,0,0,,
+86,Nyamata,Mutsinzi Joseph,13,Male,S1A,,,"Geography,Mathematics","Mathematics,Geography",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0
+87,Maranyundo,Nakure Diane,15,Female,S3,"History,Physics","Physics,Biology",,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,
+88,Maranyundo,Ndahimana Elissa,13,Male,S1B,"Bio,Eng,Ikinya,Chem","Bio,Eng,Ikinya,Chem",,,1,1,,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+89,Nyamata,Ndatimana Aphrodis,19,Male,S3,,,"Geography,History,Biology",NO DATA,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+90,Maranyundo,Ndayishimiye Donat,17,Male,S1A,"Geography,Biology,History,Physics","Francais,Literature",,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,
+91,Maranyundo,Ndayishimiye Emmanuel,19,Male,S3,"Maths,Phy,Kinya,Hist,Chem","Ikinyarwanda,Maths,Physics",,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,
+92,Nyamata,Ndizeye Chance,16,Male,S3,,,YOSE/ ALL,Physics,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0
+93,Maranyundo,Nibishaka Brigitte,15,Female,S3,,,"Maths,English","Biology,French",,,0,1,,,0,0,,,1,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0
+94,Nyamata,Nikuze Francoise,15,Female,S1B,"English,Geography,Physics,Ikinyarwnda,Biology and History","Chemistry,Francais,Physics,Swahili",,,1,0,,,0,1,,,1,0,,,0,0,,,0,1,,,1,0,,,1,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,
+95,Nyamata,Nishemezwe Ange Daniella,13,Female,S1B,,,"Kinyarwanda,Francais,Biology,English,Geography,Sport,ICT","Interpreneurship,Chemistry,Literature,Physics,Kiswahili,Maths",,,1,0,,,0,1,,,1,0,,,0,0,,,1,0,,,1,0,,,0,0,,,1,0,,,1,0,,,0,1,,,1,0,,,0,1,,,0,1,,,0,0,,,1,0
+96,Maranyundo,Nishimwe Madinah,15,Female,S3,,,-999,"Mathematics,Physics",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0
+97,Maranyundo,Niwemukiza Emelyne,13,Female,S2,"Entrepreneurship,Geography","Entrepreneurship,Geography",,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+98,Maranyundo,Niyigena Divine,16,Female,S2,,,"Geography,Biology,Physical","Geography,Biology,Physical",,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0
+99,Maranyundo,Niyigena Eodia,12,Female,S1A,"English,Geography","Physics,entrepreneurship",,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,
+100,Maranyundo,Niyingenera Edith,15,Female,S1B,,,"Ikinyarwanda,History,Geography","Maths,English",,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+101,Maranyundo,Niyirera Esther,13,Female,S1A,,,"Biology,English","Literature,Maths",,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,,0,0
+102,Nyamata,Niyitanga Cedrick,16,Male,S3,"History,Kinyarwanda","Geo,Physics",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,
+103,Maranyundo,Niyodusaba Elias,17,Male,S3,,,"Physics,English","Chem,French,Maths",,,0,0,,,0,1,,,1,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0
+104,Maranyundo,Niyomugabo Eric,19,Male,S2,"Mathematics,English,Biology","Mathematics,Religion,Biology,Geography,Chem",,,1,1,,,0,1,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,1,,,0,0,,
+105,Nyamata,Niyomukiza Betty,13,Female,S1B,"Physics, Biology, Geography, Chemistry","Ent,kinya,French,Math",,,1,0,,,1,0,,,0,0,,,0,1,,,0,1,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,
+106,Nyamata,Niyomurinzi Pacifique,16,Male,S2A,"English,Geo,Kinya,Physics,Literature,Maths","ICT,Bio,Rel,Chem",,,0,1,,,0,1,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,1,,,1,0,,,0,0,,,1,0,,,1,0,,,1,0,,,0,1,,,0,0,,
+107,Maranyundo,Niyonizeye Berthine,15,Female,S1A,"English,Biology","Maths,Physics",,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,
+108,Nyamata,Niyonkuru Eric,17,Male,S1A,"Physics,Chem,Geo,Kinya,Eng","Physics,Ikinya,Eng,Geo",,,0,0,,,1,0,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,
+109,Nyamata,Niyonyishu Lucie,16,Female,S2B,,,"Maths,Chemistry,French,Kiswahili,Biology,Riligion,English,Physics","Francais,Kiswahili,English,Chemistry,Biology,Maths,Geo,Hist",,,1,1,,,1,1,,,1,1,,,0,0,,,1,1,,,0,1,,,0,1,,,0,1,,,0,0,,,1,1,,,0,0,,,1,1,,,1,0,,,1,0,,,0,0
+110,Nyamata,Niyotwagira Faustin,18,Male,S2B,"Ikinyarwanda,Geo,Icyongereza,History","Ikinyarwanda,History,Icyongereza,Geo",,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+111,Maranyundo,Nkurunziza Theophile,17,Male,S1B,,,"History,Ikinyarwanda","History,Maths,Ikinyarwanda",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,1,,,1,1,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+112,Nyamata,Nkwaya Nelson,13,Male,S1A,,,"Chemistry,Biology,Enterpreneurship,Physics,Naths,History,Religion","Igiswahili,Igifaransa",,,1,0,,,1,0,,,0,0,,,1,0,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0
+113,Maranyundo,Nsengimana Jerome,18,Male,S3,"PCB[Physics,Chemistry,Biology]","Kinyarwanda,Maths",,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,
+114,Maranyundo,Nshimiyimana Emmanuel,20,Male,S2,"ICT,Biology,Geo,Ent,Kinyarwanda","English,Ict,Kinyarwanda,Geo,Bio",,,1,1,,,0,0,,,0,1,,,1,0,,,0,0,,,1,1,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+115,Maranyundo,Nshuti Didie,14,Male,S1B,Ikinyarwanda,"Ikinyarwanda,History,ICT",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+116,Nyamata,Ntihanabayo Deborah,15,Female,S2B,"Maths,Geo,Ikinya,Swahili,Eng,Francais,Ent,Chem","Mathematics,Chemistry,Geography,kinyarwanda,English",,,0,0,,,1,1,,,1,1,,,1,0,,,1,0,,,1,1,,,0,0,,,0,0,,,1,1,,,1,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,
+117,Nyamata,Ntivuguruzwa Olivier,17,Male,S2A,"Kinyarwanda,Geography,ICT,History","Kinyarwanda,Geography,ICT,History",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+118,Maranyundo,Ntwari Abdu,14,Male,S1B,"Geography,Ikinyarwanda","Physics,French",,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,
+119,Maranyundo,Nyinawumuntu Claudine,16,Female,S3,"Biology,Entrepreneurship","Chemistry,Maths",,,1,0,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,
+120,Nyamata,Nyiraneza Joselyn,15,Female,S1A,,,"Chemistry,Maths,Biology,Siporo,English,History,Ikinyarwanda","Physics,Geo,Bio,Entrepreneurship,",,,1,1,,,1,0,,,1,0,,,0,1,,,0,0,,,0,1,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,1,0
+121,Maranyundo,Nyiransabimana Divine,13,Female,S1B,"Ikinyarwanda,Maths,Swahili,French","Swahili,Literature,Maths,Ikinyarwanda",,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,0,1,,,1,1,,,0,0,,,0,0,,,0,0,,
+122,Maranyundo,Nziza Solange,14,Female,S1B,"Literature,Entrepreneurship","Maths,Geography",,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,,0,0,,
+123,Nyamata,Patrick,10,Male,?,,,Geography,History,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+124,Maranyundo,Rugamba Kessy,13,Male,S2,"Chemistry,English","Chemistry,English",,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+125,Maranyundo,Rukundo Patrick,18,Male,S3,,"Ikinyarwanda,History",,"Mathematics,Physics",,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,,1,,0,,0,,0,,1,,0,,0,,0,,0,,0,,0,,1,,0,,1,,0,,0,,0,,0
+126,Maranyundo,Rwibutso Betty,13,Female,S1B,,,"Chemistry,Biology","Maths,Entrepreneurship,Physics,History,Geography",,,1,0,,,1,0,,,0,0,,,0,1,,,0,0,,,0,1,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0
+127,Nyamata,Sayinzoga Aime-Joel,15,Male,S3,,,"Mathematics,English","History,Physics",,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0
+128,Nyamata,Sebakunda Divin,17,Male,S2B,,,"Hist,Chem,Phy,Maths,Bio,Geo","ICT,Physics,Bio,Sports,Chem,Hist,Geo",,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,1,1,,,0,0,,,0,1
+129,Nyamata,Shingiro Jackson,16,Male,S2A,,,"English,ICT,History,Sports","Sports,English,History,ICT",,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1
+130,Maranyundo,Shumbusho Jean Marie,17,Male,S3,"Mathematics,Kinyarwanda","Chemistry,History",,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,
+131,Maranyundo,Sinabubaraga Vincent,17,Male,S1B,"History,Kinyarwanda","Maths,French",,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,
+132,Nyamata,Tetawase Grace,14,Female,S2B,"Religion,Ikinyarwanda,Mathematics,English","Biology,Geography,Ikinyarwnda,English",,,0,1,,,0,0,,,1,1,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,0,,,0,0,,,1,0,,,0,0,,
+133,Maranyundo,Tumukunde Julienne,15,Female,S1B,,,"Ikinyarwanda,History",Ikinyarwanda,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+134,Maranyundo,Tumurere Sifa,15,Female,S1B,"History,Kinyarwanda,English,Geography,Kiswahili","Physics,Mathematics",,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,
+135,Maranyundo,Tuyisenge Jean.Baptiste,16,Male,S1B,,,"Maths,English","Francais,History",,,0,0,,,0,0,,,1,0,,,0,0,,,0,1,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0
+136,Maranyundo,Tuyishimire Joselyne,15,Female,S1A,,,"Kinya,Chem,Maths,Biology","Maths,Biology,Chem,Kinyarwanda",,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0
+137,Maranyundo,Tuyisingize Gilbert,12,Male,S1A,,,"Biology,Kinyarwanda","Physics,entrepreneurship",,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0
+138,Nyamata,Tuyituriki Gad,14,Male,S3,"Maths,Physics,Ikinyarwanda",No subjects,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0,,
+139,Maranyundo,Tuyizere David,14,Male,S1B,"Physics,Biology,Chemistry","Geography,History",,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,
+140,Maranyundo,Ubaruta Angelique,16,Female,S1A,"Kinyarwanda,English","Kinyarwanda,English",,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+141,Maranyundo,Ufitinemanziza Gisele,16,Female,S2,,,"Biology,Maths,Geo,Chem,Ent,Eng","Physics,History,Kinyarwanda",,,1,0,,,1,0,,,1,0,,,1,0,,,0,0,,,1,0,,,0,1,,,0,1,,,0,1,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0
+142,Maranyundo,Umubwiriza Ruth,15,Female,S2,"Entrepreneurship,Geography,Biology,Kinyarwanda","Chemistry,English,Maths",,,1,0,,,0,1,,,0,1,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,
+143,Nyamata,Umufasha Somaya,12,Female,S1A,"Physics,Maths,Biology,Chemistry,English,Kiswahili","Chemistry,Geography,Ikinyarwanda,Biology,History,English,Kiswahili",,,1,1,,,1,1,,,1,1,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,1,,,1,1,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0,,
+144,Nyamata,Umugwaneza Diane,15,Female,S1A,,,"English and Kinyarwanda,Biology",-999,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+145,Maranyundo,Umulisa Angelique,12,Female,S1B,,,"Biology,Geography,Kinyarwanda,English","Biology,Geography,Kinyarwanda,English",,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0
+146,Nyamata,Umuraza Jeannette,17,Female,S3,"Kinyarwanda,History,Entrepreneurship","Physics,Chemistry",,,0,0,,,0,1,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,
+147,Nyamata,Umurerwa Adelphine,14,Female,S1B,"Biology,Chemistry,Physics,ICT","Biology,English",,,1,1,,,1,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,
+148,Nyamata,Umuringawase Nadine,16,Female,S3,"Maths,English","Chemistry,Physics",,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,
+149,Nyamata,Umutesi Josiane,15,Female,S1B,,,,"Kiswahili,Francais,Maths,Ent",,,NA,0,,,NA,0,,,NA,0,,,NA,1,,,NA,1,,,NA,0,,,NA,0,,,NA,0,,,NA,0,,,NA,1,,,NA,0,,,NA,1,,,NA,0,,,NA,0,,,NA,0
+150,Maranyundo,Umutoni Josiane,17,Female,S3,"Biology,Ikinyarwanda,Maths","French,Chemistry",,,1,0,,,0,1,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,
+151,Maranyundo,Umwariwase Denyse,14,Female,S3,"Mathematics,Kinyarwanda","Entrepreneurship,French",,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,
+152,Maranyundo,Urukundo Lysa,16,Female,S2,"Geo,Chem,Bio,Maths","Biology,Mathematics,Chemistry,geo",,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,
+153,Nyamata,Uwamahoro Clementine,13,Female,S1B,,,"Biology,Ikinyirwanda","Francais,Maths",,,1,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+154,Maranyundo,Uwamariya Gaudence,14,Female,S1A,"Mathematics,Chemistry","Mathematics,Chemistry",,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,
+155,Nyamata,Uwamurera Divine,14,Female,S1A,,,"Maths,Bio,Social,Kinya,Eng","Chem,Physics,Relijiyo",,,1,0,,,0,1,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,1,,,0,0
+156,Nyamata,Uwase Belyse,14,Female,S1B,"Biology,Chemistry,Ikinyarwanda,English,Physics","English,ICT,Physics",,,1,0,,,1,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,
+157,Maranyundo,Uwase Hadja,16,Female,S3,,,"Ikinyarwanda,English,Biology","Francais,Mathematics",,,1,0,,,0,0,,,1,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+158,Maranyundo,Uwase Sandrine,17,Female,S3,"Ikinyarwanda,Maths,Biology,English","Physics,Chem,Geo,French",,,1,0,,,0,1,,,1,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,1,0,,,0,1,,,0,0,,,0,0,,
+159,Maranyundo,Uwase Sandrine,14,Female,S1A,,,"Ikinyarwanda,History","Physics,Mathematics",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0
+160,Nyamata,Uwase Solange,15,Female,S1B,"Ikinyarwanda,Sports,ICT,Physics","Ikinyarwnda,ICT,Sports,Physics",,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,1,1,,
+161,Nyamata,Uwayezu Diane,15,Female,S1B,,,"Geography,History,Chemistry,Biology,English,Physics,Ikinyarwanda,Maths,ICT","Entrepreneurship,Kiswahili,Religion",,,1,0,,,1,0,,,1,0,,,0,1,,,0,0,,,1,0,,,1,0,,,1,0,,,1,0,,,0,1,,,0,0,,,1,0,,,1,0,,,0,1,,,0,0
+162,Maranyundo,Uwayo Pacifique,15,Female,S1A,"Chem,Bio","Physics,Mathematics",,,1,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,
+163,Maranyundo,Uwiduhaye Francine,15,Female,S1B,,,"History,Kinyarwanda","Chemistry,Literature",,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,1,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0
+164,Maranyundo,Uwigiciro Bonne,16,Female,S1A,"Chemistry,Swahili","Chemistry,Swahili",,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+165,Maranyundo,Uwimana Patrick,15,Male,S1B,"Bio,Chem,Kinya,Geo,Hist,Ent,English","Bio,Hist,Geo,Chem,Ent,Eng,Kinya",,,1,1,,,1,1,,,1,1,,,1,1,,,0,0,,,1,1,,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,
+166,Nyamata,Uwineza Florida,14,Female,S2A,,,"Ikinyarwanda,Mathematics.Physics,ICT","History,Geography,Ent/ship",,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,1,,,0,1,,,1,1,,,1,0,,,0,0,,,0,0,,,1,0,,,1,0,,,0,0,,,0,0
+167,Nyamata,Uwineza Nadine,18,Female,S3,,,-999,"Francais,Maths",,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,1,,,0,0,,,0,0,,,0,0
+168,Nyamata,Uwingabire Louise,18,Female,S3,"English,Kinyarwanda","Maths,Physics,Chemistry",,,0,0,,,0,1,,,1,0,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,0,,,0,0,,,0,0,,,0,1,,,0,1,,,0,0,,,0,0,,
+169,Nyamata,Uwizeyimana Clemantine,14,Female,S2A,"Physics,Maths,Chem,Bio,English,Ent,Swahili,Ikinyarwanda","Physics,Chem,Maths,Hist,Geo,Kinyarwanda",,,1,0,,,1,1,,,1,0,,,1,0,,,0,0,,,0,1,,,0,1,,,0,0,,,1,1,,,1,0,,,0,0,,,1,1,,,1,1,,,0,0,,,0,0,,
+170,Maranyundo,Uwizeyimana Jeanette,16,Female,S2,"Geography,Entrepreneurship,Mathematics","Geography,Entrepreneurship,Mathematics",,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,,0,0,,,0,0,,,1,1,,,0,0,,,0,0,,,0,0,,
