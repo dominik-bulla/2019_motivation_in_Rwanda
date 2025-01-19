@@ -159,20 +159,12 @@ motivation_confidence <- motivation_confidence %>%
 
 ### change ability into expectancies ----------------------- ----------------------- ----------------------- -----------------------
 
-motivation_confidence <- motivation_confidence %>%
-  mutate(coding_round_4.2_final_coding_separate = ifelse(grepl("goals", coding_round_4.2_final_coding_separate), "goals", coding_round_4.2_final_coding_separate))
+patterns <- c("abilities", "ability")
+replacements <- "expectancy"
 
-
-
-### change ability into expectancies ----------------------- ----------------------- ----------------------- -----------------------
-
-columns <- colnames(motivation_confidence)
-columns <- columns[grep("coding", columns)]
-for (col in 1 : length(columns)) {
-  print(col)
-  motivation_confidence[, col] <- gsub("ABILITIES", " EXPECTANCY", motivation_confidence[, col])
-  motivation_confidence[, col] <- gsub("ABILITY", " EXPECTANCY", motivation_confidence[, col])
-}
+motivation_confidence[] <- lapply(motivation_confidence, function(col) {
+  gsub(paste(patterns, collapse = "|"), replacements, col)
+})
 
 
 
@@ -207,12 +199,9 @@ motivation_confidence <- motivation_confidence %>%
 
 ### create data set for 2019 mixed-method study on "Achievement motivation amongst Rwandan students" ----------------------- ----------------------- ----------------------- -----------------------
 
-write.csv(motivation, "aaa.csv")
-
-
 motivation <- motivation_confidence %>%
   filter(questionnaire_classification_final == "demotivation" | questionnaire_classification_final == "motivation") %>%
-  select(-c(statement_Kinyarwanda, statement_English, statement_stem, statement_in_first_person, 
+  select(-c(statement_stem, statement_in_first_person, 
             auxiliary_verb_used, verb_used, verb_negated, adverb_used, 
             object_1_used, object_2_used, object_3_used))
 
@@ -220,7 +209,7 @@ motivation <- motivation_confidence %>%
 
 ### Save data ----------------------- ----------------------- ----------------------- -----------------------
 
-write.csv(motivation, "02 processed data/motivation_in_Rwanda_20250115_v01.csv", row.names = FALSE)
+write.csv(motivation, "02 processed data/motivation_in_Rwanda_20250119_v01.csv", row.names = FALSE)
 
 
 
