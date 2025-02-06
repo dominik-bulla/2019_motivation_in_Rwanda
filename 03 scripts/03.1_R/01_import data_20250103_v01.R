@@ -134,7 +134,7 @@ motivation_confidence <- motivation_confidence %>%
   mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "TASK DIFFICULTY","COSTS/EFFORT", coding_round_4.2_final_coding_separate))
 
 motivation_confidence <- motivation_confidence %>%
-  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "POSITIVE","VALUE/POSITIVE", coding_round_4.2_final_coding_separate)) %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "POSITIVE","VALUE/INTRINSIC", coding_round_4.2_final_coding_separate)) %>%
   mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (DAILY LIFE)", "VALUE/UTILITY/DAILY LIFE", coding_round_4.2_final_coding_separate)) %>%
   mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (GENERAL)", "VALUE/UTILITY/GENERAL", coding_round_4.2_final_coding_separate)) %>%
   mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "UTILITY (LEARNING UTILITY)", "VALUE/UTILITY/LEARNING UTILITY", coding_round_4.2_final_coding_separate)) %>%
@@ -154,6 +154,17 @@ motivation_confidence <- motivation_confidence %>%
   mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (SOCIAL RESPONSIBILITY)","GOALS/social responsibility", coding_round_4.2_final_coding_separate)) %>%
   mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "GOALS (SOCIAL STATUS)","GOALS/social status", coding_round_4.2_final_coding_separate)) %>%
   mutate(coding_round_4.2_final_coding_separate = tolower(coding_round_4.2_final_coding_separate))
+
+motivation_confidence <- motivation_confidence %>%
+  mutate(coding_round_4.2_final_coding_separate = ifelse(coding_round_4.2_final_coding_separate == "source","other factors", coding_round_4.2_final_coding_separate))
+
+motivation_confidence <- as.data.frame(lapply(motivation_confidence, function(x) {
+  if (is.character(x)) {
+    return(tolower(x))
+  } else {
+    return(x)
+  }
+}))
 
 
 
@@ -210,7 +221,5 @@ motivation <- motivation_confidence %>%
 ### Save data ----------------------- ----------------------- ----------------------- -----------------------
 
 write.csv(motivation, "02 processed data/motivation_in_Rwanda_20250119_v01.csv", row.names = FALSE)
-
-
-
-
+write.csv(motivation, "C:/Users/domin/GitHub/2024_article_mixed-method_study_on_motivation_in_Rwanda/01 raw data/motivation_in_Rwanda_20250119_v01.csv", row.names = FALSE)
+write.csv(motivation_confidence, "02 processed data/motivation_in_Rwanda_full_20250120_v01.csv", row.names = FALSE)
