@@ -303,6 +303,6 @@ motivation <- motivation_confidence %>%
 
 ### Save data ----------------------- ----------------------- ----------------------- -----------------------
 
-write.csv(motivation, "02 processed data/motivation_in_Rwanda_20250124_v01.csv", row.names = FALSE)
-write.csv(motivation, "C:/Users/domin/GitHub/2024_article_mixed-method_study_on_motivation_in_Rwanda/01 raw data/motivation_in_Rwanda_20250124_v01.csv", row.names = FALSE)
-write.csv(motivation_confidence, "02 processed data/motivation_in_Rwanda_full_20250124_v01.csv", row.names = FALSE)
+write.csv(motivation, "02 processed data/motivation_in_Rwanda_20250127_v01.csv", row.names = FALSE)
+write.csv(motivation, "C:/Users/domin/GitHub/2024_article_mixed-method_study_on_motivation_in_Rwanda/01 raw data/motivation_in_Rwanda_20250127_v01.csv", row.names = FALSE)
+write.csv(motivation_confidence, "02 processed data/motivation_in_Rwanda_full_20250127_v01.csv", row.names = FALSE)
